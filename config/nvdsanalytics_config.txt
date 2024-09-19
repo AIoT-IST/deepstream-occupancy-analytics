@@ -79,21 +79,6 @@ extended=0
 #strict  : Strict direction adherence expected compared to mode=balanced
 mode=balanced
 
-[line-crossing-stream-1]
-enable=1
-#Label;direction;lc
-line-crossing-Exit=900;1000;850;900;300;1000;1350;800;
-line-crossing-Entry=750;670;800;750;300;850;1350;650
-class-id=0
-#extended when 0- only counts crossing on the configured Line
-#              1- assumes extended Line crossing counts all the crossing
-extended=1
-#LC modes supported:
-#loose   : counts all crossing without strong adherence to direction
-#balanced: Strict direction adherence expected compared to mode=loose
-#strict  : Strict direction adherence expected compared to mode=balanced
-mode=balanced
-
 [direction-detection-stream-0]
 enable=0
 #Label;direction;
