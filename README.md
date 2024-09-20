@@ -45,7 +45,7 @@ To learn how to build this demo step-by-step, check out the on-demand webinar on
 
 - Download peoplnet model: 
 ```
-cd /opt/nvidia/deepstream/deepstream-6.3/sources/apps/sample_apps/deepstream-occupancy-analytics/deepstream-occupancy-analytics/config && ./model.sh
+cd /opt/nvidia/deepstream/deepstream-6.3/sources/apps/sample_apps/deepstream-occupancy-analytics/config && ./model.sh
 ```
 - For Jetson use:  bin/jetson/libnvds_msgconv.so
 
